@@ -12,7 +12,7 @@ Before continuing, If you haven't already, please review the [README](README.md)
 
 ## Communications ##  
 
-The FarmData2 community uses [Zulip](https://zulip.com/) as it communication platform. Zulip is a group chat application that blends the benefits of asynchronous threaded discussions (e.g. a forum) with live chat.
+The FarmData2 community uses [Zulip](https://zulip.com/) as its communication platform. Zulip is a group chat application that blends the benefits of asynchronous threaded discussions (e.g. a forum) with live chat.
 
 Connecting with the [FarmData2 community](https://farmdata2.zulipchat.com/) on Zulip provides a place to ask questions of the project managers and the broader developer community.
 
@@ -151,7 +151,7 @@ The FarmData2 front end exchanges data with the server using the [farmOS API](ht
 
 #### Cypress ####
 
-The functionality of FarmData2 is tested using the [Cypress framework](https://www.cypress.io/). The tests in FarmData2 consist of end-to-end tests and component tests.  The end-to-end tests run against the developer instance of FarmData2 and check the functionality of the pages.  The component tests check the behavior of custom components that appear in FarmData2, in isolation from the runing instance. FarmData 2 provides support for running both types of Cypress tests in a Docker container that eliminates the need to install or configure Cypress. See the documentation in the [farmdata2_modules/fd2_tabs/README.md](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md) file for information about runing Cypress tests in FarmData2. 
+The functionality of FarmData2 is tested using the [Cypress framework](https://www.cypress.io/). The tests in FarmData2 consist of end-to-end tests and component tests.  The end-to-end tests run against the developer instance of FarmData2 and check the functionality of the pages.  The component tests check the behavior of custom components that appear in FarmData2, in isolation from the running instance. FarmData 2 provides support for running both types of Cypress tests in a Docker container that eliminates the need to install or configure Cypress. See the documentation in the [farmdata2_modules/fd2_tabs/README.md](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md) file for information about running Cypress tests in FarmData2. 
 
 ##### End-to-End Tests #####
 
@@ -173,7 +173,7 @@ The Cypress end-to-end test framework works by controlling the web browser. A te
     - [FarmData2 Cypress Tests Details](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md): Information on specifically how FarmData2 uses Cypress tests.
 ##### Component Tests #####
 
-Cypress component tests work by mounting a Vue Component into a browser and allowing tests to interact with it in isolation from the application.  A typical comonent test will:
+Cypress component tests work by mounting a Vue Component into a browser and allowing tests to interact with it in isolation from the application.  A typical component test will:
   1. Configuring and mounting the component into the test framework.
   1. Query the component for an _html element_ of interest (e.g. button, ext field)
   1. Interact with that element (e.g. click the button, enter some text)
