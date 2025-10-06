@@ -39,7 +39,7 @@ Under Ubuntu Linux these tools can most easily be installed using the [apt](http
 
 Full installation details for other platforms can be obtained from the projects themselves on the following sites:
 
-  * [Intallling git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+  * [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   * [Get Docker](https://docs.docker.com/get-docker/)
   * [Install Compose](https://docs.docker.com/compose/install/)
 
@@ -75,7 +75,7 @@ The FarmData2 repository contains a sample database with anonymized data from se
 ./setDB.bash sample
 ```
 
-When this command completes there should be a `db` directory in the `docker` directory.  The files in this `db` directory are a mySQL database that contain the sample data.  Note that you will only need to do this step once. But the above comman can be used at any time to reset the database to its initial state.
+When this command completes there should be a `db` directory in the `docker` directory.  The files in this `db` directory are a mySQL database that contain the sample data.  Note that you will only need to do this step once. But the above command can be used at any time to reset the database to its initial state.
 
 #### Starting FarmData2 ####
 
