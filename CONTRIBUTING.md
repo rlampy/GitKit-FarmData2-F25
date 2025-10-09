@@ -26,7 +26,7 @@ Having a running version of FarmData2 is a prerequisite for many of the forms of
 
 #### Bug Reports ####
 
-If you are are a user of FarmData2 and discover something that doesn't seem to be working correctly you can:
+If you are a user of FarmData2 and discover something that doesn't seem to be working correctly you can:
 
   * Reach out to the community on the [Zulip Developer Stream](https://farmdata2.zulipchat.com/#narrow/stream/271292-developers) to discuss what you have found and how to proceed.
   * Search the [Issue Tracker] to see if the bug has been reported already.
@@ -49,7 +49,7 @@ If you are are a user of FarmData2 and have a new feature you would like to see 
 The project [Issue Tracker] contains tickets describing known issues with the project.  The tickets for known issues are tagged with the label "bug".  Each reported bug will have a detailed description of how the bug can be observed. Gardening includes activities such as:
 
   * Verifying or clarifying these descriptions.
-  * Enhance the report by providing additional information about the bug (e.g. platforms on which is is or is not seen).
+  * Enhance the report by providing additional information about the bug (e.g. platforms on which it is or is not seen).
   * Confirming that bug does (or does not) exist in the current version.
 
 To participate by Gardening visit the [Issue Tracker] and find something of interest to verify, enhance or clarify.  Try it out in your running version of FarmData2 and add a comment to the ticket with what you find.
@@ -82,7 +82,7 @@ As a reference, the basic steps for working with GitHub Flow are as follows:
   * Fork the _upstream_ repository to your GitHub (the _origin_).
   * [Clone] the _origin_ repository to your local machine.
   * Set the  _upstream_ remote for your local repository to point to the _upstream_ repository.
-  * Create a _feature branch_ from the _main_ branch your local machine.
+  * Create a _feature branch_ from the _main_ branch on your local machine.
   * Make the edits to the documentation or the code in your _feature branch_.
   * Commit your edits.
     * If the contribution reflects the work of multiple people, ensure that everyone receives attribution by [Creating a commit with multiple authors].
