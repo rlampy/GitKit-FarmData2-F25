@@ -4,7 +4,7 @@ FarmData2 welcomes participation and contributions. There are many ways to contr
 
 ## Code of Conduct ##
 
-To promote an open, welcoming, inclusive and harassment-free experience, all engagement with FarmData2 is governed by the community standards expressed in the [Contributor Covenent](CODE_OF_CONDUCT.md).
+To promote an open, welcoming, inclusive and harassment-free experience, all engagement with FarmData2 is governed by the community standards expressed in the [Contributor Covenant](CODE_OF_CONDUCT.md).
 
 ## Licensing ##
 
@@ -82,7 +82,7 @@ As a reference, the basic steps for working with GitHub Flow are as follows:
   * Fork the _upstream_ repository to your GitHub (the _origin_).
   * [Clone] the _origin_ repository to your local machine.
   * Set the  _upstream_ remote for your local repository to point to the _upstream_ repository.
-  * Create a _feature branch_ from the _main_ branch your local machine.
+  * Create a _feature branch_ from the _main_ branch on your local machine.
   * Make the edits to the documentation or the code in your _feature branch_.
   * Commit your edits.
     * If the contribution reflects the work of multiple people, ensure that everyone receives attribution by [Creating a commit with multiple authors].
