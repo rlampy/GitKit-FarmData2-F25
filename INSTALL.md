@@ -75,7 +75,7 @@ The FarmData2 repository contains a sample database with anonymized data from se
 ./setDB.bash sample
 ```
 
-When this command completes there should be a `db` directory in the `docker` directory.  The files in this `db` directory are a mySQL database that contain the sample data.  Note that you will only need to do this step once. But the above comman can be used at any time to reset the database to its initial state.
+When this command completes there should be a `db` directory in the `docker` directory.  The files in this `db` directory are a mySQL database that contain the sample data.  Note that you will only need to do this step once. But the above command can be used at any time to reset the database to its initial state.
 
 #### Starting FarmData2 ####
 
@@ -84,7 +84,7 @@ To start FarmData2 ensure that you are in the `docker` directory in the reposito
 ./fd2-up.bash
 ```
 
-This command will starts up the docker containers that are used by FarmData2. There will be lots of output from this command and the first time you run it, it may take a while to complete as it pulls, downloads and extracts the docker images to your machine.
+This command will start up the docker containers that are used by FarmData2. There will be lots of output from this command and the first time you run it, it may take a while to complete as it pulls, downloads and extracts the docker images to your machine.
 
 If you encounter an error similar to `Cannot start service www`, it can likely be fixed by entering the command
 ```

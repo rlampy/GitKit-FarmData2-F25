@@ -12,7 +12,7 @@ Before continuing, If you haven't already, please review the [README](README.md)
 
 ## Communications ##  
 
-The FarmData2 community uses [Zulip](https://zulip.com/) as it communication platform. Zulip is a group chat application that blends the benefits of asynchronous threaded discussions (e.g. a forum) with live chat.
+The FarmData2 community uses [Zulip](https://zulip.com/) as its communication platform. Zulip is a group chat application that blends the benefits of asynchronous threaded discussions (e.g. a forum) with live chat.
 
 Connecting with the [FarmData2 community](https://farmdata2.zulipchat.com/) on Zulip provides a place to ask questions of the project managers and the broader developer community.
 
@@ -173,7 +173,7 @@ The Cypress end-to-end test framework works by controlling the web browser. A te
     - [FarmData2 Cypress Tests Details](https://github.com/DickinsonCollege/FarmData2/blob/main/farmdata2_modules/fd2_tabs/fd2_example/README.md): Information on specifically how FarmData2 uses Cypress tests.
 ##### Component Tests #####
 
-Cypress component tests work by mounting a Vue Component into a browser and allowing tests to interact with it in isolation from the application.  A typical comonent test will:
+Cypress component tests work by mounting a Vue Component into a browser and allowing tests to interact with it in isolation from the application.  A typical component test will:
   1. Configuring and mounting the component into the test framework.
   1. Query the component for an _html element_ of interest (e.g. button, ext field)
   1. Interact with that element (e.g. click the button, enter some text)
